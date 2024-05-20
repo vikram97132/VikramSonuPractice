@@ -16,6 +16,10 @@ public class OccuranceOfCharacter {
 		System.out.println(charCountMap);
 		
 		name.chars().mapToObj(c->(char) c).collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
+	
+	// find only repeated word
+	
+	
 	}
 
 }

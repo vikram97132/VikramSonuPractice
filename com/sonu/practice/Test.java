@@ -8,6 +8,9 @@ public class Test {
 		long count = name.chars().filter(c -> c != ' ').count();
 
 		System.out.println(count);
+		
+		int s = 100%6;
+		System.out.println(s);
 
 	}
 
